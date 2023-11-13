@@ -64,9 +64,9 @@ class MainApp extends StatelessWidget {
 
 class Chat extends StatelessWidget {
   Chat({super.key, this.name, this.preview, this.notify});
-  String? name;
-  String? preview;
-  bool? notify;
+  final String? name;
+  final String? preview;
+  final bool? notify;
   @override
   Widget build(BuildContext context) {
     return SizedBox(
